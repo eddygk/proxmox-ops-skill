@@ -65,7 +65,7 @@ The knowledge is in plain markdown and shell scripts — no framework lock-in. H
 Clone into your project and reference it in your project memory. Claude Code auto-loads `CLAUDE.md` at session start, so a one-liner is all you need:
 
 ```bash
-git clone https://github.com/eddygk/proxmox-ops-skill.git proxmox-ops
+git clone https://github.com/eddygk/proxmox-ops.git proxmox-ops
 echo "For Proxmox operations, read proxmox-ops/SKILL.md and proxmox-ops/references/provisioning.md" >> CLAUDE.md
 ```
 
